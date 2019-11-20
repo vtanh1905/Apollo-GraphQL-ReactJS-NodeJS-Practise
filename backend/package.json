@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./config/www",
-    "start:dev": "nodemon ./bin/www"
+    "start:dev": "nodemon ./config/www"
   },
   "dependencies": {
     "apollo-server-express": "^2.9.9",
